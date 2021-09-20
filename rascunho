@@ -1,0 +1,94 @@
+
+      
+    <div class="container">
+      <div>
+        <hr />
+        <h3 style="text-align: center">Tela de Cadastro</h3>
+        <hr />
+      </div>
+
+
+    </div>
+    
+      
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label for="inputID ">ID</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputNameID"
+              placeholder="O ID é automatico"
+            />
+          </div>
+
+          <div class="form-group col-md-8">
+            <label for="inputName">Nome</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputName"
+              placeholder="Digite um Nome"
+            />
+          </div>
+        </div>
+      
+      
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="inputEndereco">endereço</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputEndereco"
+              placeholder="Digite o endereço"
+            />
+          </div>
+          <div class="form-group">
+            <label for="inputCidade">cidade</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputCidade"
+              placeholder="Digite a cidade"
+            />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="inputBairro">Bairro</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputBairro"
+              placeholder="Digite o Bairro"
+            />
+          </div>
+          <div class="form-group">
+            <label for="inputCep">CEP</label>
+            <input
+              type="number"
+              class="form-control"
+              id="inputEndereco"
+              placeholder="00000-000"
+            />
+          </div>
+          <div class="form-group">
+            <label for="inputTelefone">(XX)XXXX-XXXX)</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="inputTelefone"
+              placeholder="00000-000"
+            />
+          </div>
+        </div>
+
+      </div>
+        
+        <button type="submit" class="btn btn-primary">Entrar</button>
+      </form>
+      
